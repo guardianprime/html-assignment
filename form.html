@@ -11,72 +11,79 @@
     <link rel="stylesheet" href="form.css" />
   </head>
   <body>
-
     <main>
-      <img src="image.jpg" alt="altschool banner"/>
-      <form>
-        <p>Already an Altschooler? <a href="signInForm.html">sign in</a></p>
-        <h1>Sign up</h1>
-        <p>Take the next steps to apply at Altschool Africa</p>
-        <div>
-          <label>First Name</label>
-          <input type="text" placeholder="First Name" />
-        </div>
-        <div>
-          <label>Last Name</label>
-          <input type="text" placeholder="Last Name" />
-        </div>
-        <div>
-          <label>Email </label>
-          <input type="email" placeholder="Email" />
-        </div>
-        <div>
-          <label for="cars">Gender</label>
-          <select name="cars" id="cars">
-            <option value="volvo">Select a Gender</option>
-            <option value="saab">Male</option>
-            <option value="audi">Female</option>
-          </select>
-        </div>
-        <div>
-          <label>Date of Birth</label>
-          <input type="date" />
-        </div>
-        <div>
-          <label>Phone Number</label>
-          <input type="tel" placeholder="Phone Number" />
-        </div>
-        <div>
-          <label>Country of Residence</label>
-          <input type="text" placeholder="Country of Residence" />
-        </div>
-        <div>
-          <label>State of Residence</label>
-          <input type="text" placeholder="State of Residence" />
-        </div>
-        <div>
-          <label>Password</label>
-          <input type="password" placeholder="Password" />
-        </div>
-        <div>
-          <label>Confirm Password</label>
-          <input type="password" placeholder="Confirm Password" />
-        </div>
-        <div>
-          <label>How did you hear about us?</label>
-          <input
-            type="text"
-            placeholder="Optional: Let us know how you heard about us"
-          />
-        </div>
-        <div>
-          <p>
-            By clicking continue, I agree to <a href="">Terms of Use</a> and
-            acknowledge that I have read the <a href="">Privacy Policy</a>
-          </p>
-        </div>
-        <button>Signup <i class="fa-solid fa-arrow-right"></i></button>
-      </form>
+      <img src="image.jpg" alt="altschool banner" />
+      <div class="form-wrapper">
+        <p>
+          Already an Altschooler?
+          <a class="link" href="signInForm.html">sign in</a>
+        </p>
+        <form>
+          <div class="word-div">
+            <h1>Sign up</h1>
+            <p>Take the next steps to apply at Altschool Africa</p>
+          </div>
+          <div class="input-wrapper">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" />
+          </div>
+          <div class="input-wrapper">
+            <label>Last Name</label>
+            <input type="text" placeholder="Last Name" />
+          </div>
+          <div class="input-wrapper">
+            <label>Email </label>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-wrapper">
+            <label for="cars">Gender</label>
+            <select name="cars" id="cars">
+              <option value="volvo">Select a Gender</option>
+              <option value="saab">Male</option>
+              <option value="audi">Female</option>
+            </select>
+          </div>
+          <div class="input-wrapper">
+            <label>Date of Birth</label>
+            <input type="date" />
+          </div>
+          <div class="input-wrapper">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Phone Number" />
+          </div>
+          <div class="input-wrapper">
+            <label>Country of Residence</label>
+            <input type="text" placeholder="Country of Residence" />
+          </div>
+          <div class="input-wrapper">
+            <label>State of Residence</label>
+            <input type="text" placeholder="State of Residence" />
+          </div>
+          <div class="input-wrapper">
+            <label>Password</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="input-wrapper">
+            <label>Confirm Password</label>
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+          <div class="input-wrapper">
+            <label>How did you hear about us?</label>
+            <input
+              type="text"
+              placeholder="Optional: Let us know how you heard about us"
+            />
+          </div>
+          <div>
+            <p>
+              By clicking continue, I agree to
+              <a class="link" href="">Terms of Use</a> and acknowledge that I
+              have read the <a class="link" href="">Privacy Policy</a>
+            </p>
+          </div>
+          <button>Signup <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
     </main>
   </body>
 </html>
