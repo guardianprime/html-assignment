@@ -150,8 +150,36 @@ form button {
   padding: 15px;
   border: none;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 button i {
-margin-left: 8px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 450px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  img[src^="image.jpg"] {
+    display: block;
+    width: 50%;
+    height: 100%;
+  }
+
+  .form-wrapper {
+    width: 45%;
+    height: 100%;
+  }
+
+  .double-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .double-wrapper > div {
+    width: 47%;
+  }
 }
