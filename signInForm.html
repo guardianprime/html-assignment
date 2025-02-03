@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Altschool | Signin</title>
+    <title>Altschool | Sign in</title>
     <script
       src="https://kit.fontawesome.com/bb18af6ae6.js"
       crossorigin="anonymous"
@@ -14,13 +14,18 @@
     <main>
       <img src="image.jpg" alt="altschool banner" />
       <form>
-        <p>Not an Altschooler yet? <a href="form.html">Register Now</a><ahre</p>
-        <h1>Sign in</h1>
         <p>
-          Enter your email and password to securely log in to Alt school student
-          portal
+          Not an Altschooler yet?
+          <a class="link" href="form.html">Register Now</a>
         </p>
-        <div class="form-control">
+        <div class="word-div">
+          <h1>Sign in</h1>
+          <p>
+            Enter your email and password to securely log in to Alt school
+            student portal
+          </p>
+        </div>
+        <div class="input-wrapper">
           <label for="email">Email</label>
           <input
             type="email"
@@ -28,6 +33,8 @@
             placeholder="johndoe@gmail.com"
             required
           />
+        </div>
+        <div class="input-wrapper">
           <label for="password">Password</label>
           <input
             type="password"
@@ -35,11 +42,14 @@
             placeholder="********"
             required
           />
-          <p>Must be at least 8 characters</p>
         </div>
+        <p>Must be at least 8 characters</p>
         <button type="submit">
           Proceed to dashboard <i class="fa-solid fa-arrow-right"></i>
         </button>
+        <p class="center">
+          Forget your Password? <a href="#" class="link">Reset Now!</a>
+        </p>
       </form>
     </main>
   </body>
